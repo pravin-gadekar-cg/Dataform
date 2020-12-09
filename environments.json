@@ -7,6 +7,7 @@
         {
           "name": "hourly_update",
           "cron": "5 */1 * * *",
+          "disabled": true,
           "notify": [
             {
               "channel": "email_notification_channel",

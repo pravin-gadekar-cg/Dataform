@@ -1,0 +1,8 @@
+config { type: "assertion" }
+
+SELECT
+  *
+FROM
+  ${ref("customers")}
+WHERE
+  total_spent < 3000
